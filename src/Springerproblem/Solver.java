@@ -25,9 +25,10 @@ public class Solver
     }
     public void getAllSolutions()
     {
-        for(int i=0;i<w;i++)
+        /*for(int i=0;i<w;i++)
             for(int j=0;j<h;j++)
-                backTrack(i,j,0);
+                backTrack(i,j,0);*/
+        backTrack(0,0,0); // es reicht bei 0,0 zu starten, da eh alle punkte enthalten sein müssen
     }
     private void backTrack(int x, int y, int depth)
     {
